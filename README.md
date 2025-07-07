@@ -48,7 +48,7 @@ https://{your_domain}/opendns/default
 https://{your_domain}/opendns/familyshield
 ```
 
-CN(CHINA EDNS Beta Supported):
+CN (Beta Supported, force the provision of Chinese mainland IP segments to DNS servers that support ECS):
 
 ```
 https://{your_domain}/cn/google
