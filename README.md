@@ -1,6 +1,6 @@
 # doh-proxy
 
-Deploy this github repository to [Cloudflare Pages](https://pages.cloudflare.com/), and you will get a reverse-generated doh service(Dns Over Http3 Supported).
+Deploy this github repository to [Cloudflare Pages](https://pages.cloudflare.com/), and you will get a reversed doh service(DOH3 Supported).
 
 Cloudflare:
 ```
