@@ -1,4 +1,4 @@
-const QUAD9_DOH_ENDPOINT = 'https://dns10.quad9.net/dns-query';
+const QUAD9_DOH_ENDPOINT = 'https://child-noads.joindns4.eu/dns-query';
 const DEFAULT_EDNS_CLIENT_SUBNET = '0.0.0.0/0';
 
 export async function onRequest(context) {
