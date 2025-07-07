@@ -4,7 +4,7 @@ export async function onRequest(context) {
     const url = new URL(request.url);
 
     // 构建目标 URL (保留原始查询参数)
-    const targetUrl = new URL('https://dns.google/resolve');
+    const targetUrl = new URL('https://dns.google/dns-query');
     targetUrl.search = url.search;
 
     // 克隆原始请求并修改关键属性
