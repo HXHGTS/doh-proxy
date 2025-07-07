@@ -101,11 +101,6 @@ function create404Response() {
         <p>Oops! The page you're looking for doesn't exist.</p>
         <p>You might have mistyped the address or the page may have moved.</p>
         
-        <div class="links">
-          <a href="/ikunatk">DNS Proxy</a>
-          <a href="/google">Google DNS</a>
-        </div>
-        
         <p style="margin-top: 30px; font-size: 0.9rem;">
           <small>Powered by Cloudflare Pages</small>
         </p>
