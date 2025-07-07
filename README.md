@@ -1,6 +1,6 @@
 # doh-proxy
 
-Deploy this github repository to [cloudflare pages](https://pages.cloudflare.com/), and you will get a reverse-generated doh service.
+Deploy this github repository to [cloudflare pages](https://pages.cloudflare.com/), and you will get a reverse-generated doh service(Dns Over Http3 Supported).
 
 Cloudflare:
 ```
@@ -23,15 +23,21 @@ https://{your_domain}/adguard/unfiltered
 https://{your_domain}/adguard/family
 ```
 
-Quad9:
+DNS4EU:
 ```
-https://{your_domain}/quad9/recommended
-```
-```
-https://{your_domain}/quad9/ecs
+https://{your_domain}/dns4eu/protective
 ```
 ```
-https://{your_domain}/quad9/unsecured
+https://{your_domain}/dns4eu/noads
+```
+```
+https://{your_domain}/dns4eu/child
+```
+```
+https://{your_domain}/dns4eu/childnoads
+```
+```
+https://{your_domain}/dns4eu/unfiltered
 ```
 
 OpenDNS:
