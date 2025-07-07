@@ -1,6 +1,6 @@
 # doh-proxy
 
-Deploy this github repository to [cloudflare pages](https://pages.cloudflare.com/), and you will get a reverse-generated doh service(Dns Over Http3 Supported).
+Deploy this github repository to [Cloudflare Pages](https://pages.cloudflare.com/), and you will get a reverse-generated doh service(Dns Over Http3 Supported).
 
 Cloudflare:
 ```
@@ -46,4 +46,16 @@ https://{your_domain}/opendns/default
 ```
 ```
 https://{your_domain}/opendns/familyshield
+```
+
+CN(CHINA EDNS Beta Supported):
+
+```
+https://{your_domain}/cn/google
+```
+```
+https://{your_domain}/cn/opendns/default
+```
+```
+https://{your_domain}/cn/opendns/familyshield
 ```
