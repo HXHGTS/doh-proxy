@@ -1,5 +1,5 @@
 const GOOGLE_DOH_ENDPOINT = 'https://dns.google/dns-query';
-const DEFAULT_EDNS_CLIENT_SUBNET = '119.6.6.0/24';
+const DEFAULT_EDNS_CLIENT_SUBNET = '223.87.253.0/24';
 
 export async function onRequest(context) {
   try {
