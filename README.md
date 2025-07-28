@@ -12,6 +12,11 @@ Google:
 https://{your_domain}/google
 ```
 
+HE:
+```
+https://{your_domain}he-ordns
+```
+
 AdGuard:
 ```
 https://{your_domain}/adguard/default
